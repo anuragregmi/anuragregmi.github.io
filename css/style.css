@@ -82,7 +82,9 @@ ol {
     background-size: cover;
     background-blend-mode: multiply;
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
+    overflow: auto;
+    scroll-behavior: smooth;
 }
 
 .banner-info {
